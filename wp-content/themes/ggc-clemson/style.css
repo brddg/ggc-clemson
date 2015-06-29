@@ -1,7 +1,7 @@
 /*
-	Theme Name: HTML5 Blank
-	Theme URI: http://html5blank.com
-	Description: HTML5 Blank WordPress Theme
+	Theme Name: GGC-Clemson
+	Theme URI: 
+	Description: GGC-Clemson WordPress Theme
 	Version: 1.4.3
 	Author: Todd Motto (@toddmotto)
 	Author URI: http://toddmotto.com
@@ -10,3 +10,97 @@
 	License: MIT
 	License URI: http://opensource.org/licenses/mit-license.php
 */
+
+h1 {
+  font-family: Roboto-Medium; 
+  font-size: 47px;
+  color: #303030; 
+  letter-spacing: 1px; 
+  line-height: 62px;
+}
+h2 {
+  font-family: Roboto-Medium; 
+  font-size: 29px;
+  color: #303030; 
+  letter-spacing: 1px; 
+  line-height: 38px;
+}
+h3 {
+  font-family: Roboto-Medium; 
+  font-size: 23px;
+  color: #303030; 
+  letter-spacing: 1px; 
+  line-height: 30px;
+}
+h4 {
+  font-family: Roboto-Regular; 
+  font-size: 18px;
+  color: #303030; 
+  letter-spacing: 1px; 
+  line-height: 24px;
+}
+h5 {
+  font-family: Roboto-Regular; 
+  font-size: 14px;
+  color: #303030; 
+  letter-spacing: 1px; 
+  line-height: 19px;
+}
+p {
+  font-family: Roboto-Regular; 
+  font-size: 18px;
+  color: #777877;
+  line-height: 29px;
+}
+p.small {
+  font-family: Roboto-Regular; 
+  font-size: 14px;
+  color: #777877;
+  line-height: 23px;
+}
+.btn-white {
+  font-family: Roboto-Regular; 
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 1px; 
+  line-height: 24px;
+  text-align: center;
+  padding: 48px 12px; 
+  border: 2px solid #ffffff; 
+  border-radius: 4px; 
+  background: none;
+}
+.btn-white:hover{
+  font-family: Roboto-Regular; 
+  font-size: 18px;
+  color: #058947/*, #EA6A20, #303030; */
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+  padding: 48px 12px;
+  border: 2px solid #ffffff; 
+  border-radius: 4px;
+  background: #ffffff;
+}
+.btn-blue{
+  font-family: Roboto-Regular; 
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 1px; 
+  line-height: 24px;
+  text-align: center;
+  padding: 48px 12px; 
+  border-radius: 4px; 
+  background: #16AECA;
+}
+.btn-white:hover{
+  font-family: Roboto-Regular; 
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 1px; 
+  line-height: 24px;
+  text-align: center;
+  padding: 48px 12px;
+  border-radius: 4px;
+  background: #118398; 
+}
