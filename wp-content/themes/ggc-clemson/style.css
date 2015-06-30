@@ -168,26 +168,33 @@ nav ul li a:hover {
 
 .block {
   padding: 100px 0;
-  margin: 100px 0 0;  
 }
 
 .block-half {
-  padding: 50px 0 20px;
+  padding: 50px 0 100px;
 }
 
-.text-block {
-  text-align: center;
+.text-block.grey {
   background: #f2f2f2;
+}
+
+.text-block.yellow {
+  background: #fbfcf5;
 }
 
 .text-block h3 {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #b2b2b2;
+  text-align: center;
 }
 
 .image-block {
   width: 100%;
   height: 400px;
   background-size: cover;
+}
+
+.researcher {
+  padding-bottom: 50px;
 }

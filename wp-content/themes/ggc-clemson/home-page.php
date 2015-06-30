@@ -25,18 +25,61 @@
           </div>
         </div>
         
-        <div class="block text-block">
+        <div class="block text-block grey">
           <div class="container">
             <div class="row">
-              <div class="col-md-7 col-centered">
+              <div class="col-md-8 col-md-offset-2">
                 <h3><?php the_field('home_block_1_title'); ?></h3>
-                <?php the_field('home_block_1_text'); ?>
+                <div class="text-center"><?php the_field('home_block_1_text'); ?></div>
               </div>
             </div>
           </div>
         </div>
         
         <div class="image-block" style="background-image:url('<?php the_field('home_block_2_image'); ?>')"></div>
+        
+        <div class="block text-block">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h3><?php the_field('home_block_3_title'); ?></h3>
+                <div class="text-left"><?php the_field('home_block_3_text'); ?></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <?php if (have_rows('researchers')): ?>
+          <div class="block text-block yellow">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-4">
+                      <h2>Researchers</h2>
+                    </div>
+                  </div>
+                  
+                  <?php while (have_rows('researchers')): the_row(); ?>
+
+                    <div class="row researcher">
+                      <div class="col-md-4">
+                        <img src="<?php the_sub_field('image'); ?>" />
+                      </div>
+                      <div class="col-md-8">
+                        <h4><?php the_sub_field('name'); ?></h4>
+                        <?php the_sub_field('bio'); ?>
+                      </div>
+                    </div>
+                  
+                  <?php endwhile; ?>
+                </div>
+              </div>
+            </div>
+          </div>
+        <?php endif; ?>
+        
         
 
       </article>
