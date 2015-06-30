@@ -82,6 +82,7 @@ p.small {
   background: #ffffff;
   color:#303030;
   text-decoration: none;
+  cursor: pointer;
 }
 .btn-white.green:hover{
   color: #058947;
@@ -197,4 +198,36 @@ nav ul li a:hover {
 
 .researcher {
   padding-bottom: 50px;
+}
+
+.action-block-container {
+  width: 50%;
+  float:left;
+  height: 350px;
+}
+
+.action-block-container.red {
+  background:#be4622;
+}
+
+.action-block-container.green {
+  background:#128849;
+}
+
+.action-block {
+  padding: 50px 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.action-block h2 {
+  color: white;
+}
+
+footer {
+  padding: 70px 0 20px;
+  color: white;
+  background: #242424;
+  text-align: center;
+  font-size: 14px;
 }
