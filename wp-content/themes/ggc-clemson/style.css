@@ -72,23 +72,22 @@ p.small {
   letter-spacing: 1px; 
   line-height: 24px;
   text-align: center;
-  padding: 48px 12px; 
+  padding: 12px 30px; 
   border: 2px solid #ffffff; 
   border-radius: 4px; 
-  background: none;
+  background: transparent;
+  display: inline-block;
 }
 .btn-white:hover{
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 18px;
-  color: #058947/*, #EA6A20, #303030; */
-  letter-spacing: 1px;
-  line-height: 24px;
-  text-align: center;
-  padding: 48px 12px;
-  border: 2px solid #ffffff; 
-  border-radius: 4px;
   background: #ffffff;
+  color:#303030;
+  text-decoration: none;
+}
+.btn-white.green:hover{
+  color: #058947;
+}
+.btn-white.red:hover{
+  color:#EA6A20;
 }
 .btn-blue{
   font-family: Roboto;
@@ -102,16 +101,8 @@ p.small {
   border-radius: 4px; 
   background: #16AECA;
 }
-.btn-white:hover{
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 18px;
+.btn-blue:hover{
   color: #ffffff;
-  letter-spacing: 1px; 
-  line-height: 24px;
-  text-align: center;
-  padding: 48px 12px;
-  border-radius: 4px;
   background: #118398; 
 }
 
@@ -163,6 +154,7 @@ nav ul li a:hover {
 .hero h1 {
   margin: 0;
   color: #ffffff;
+  padding-right: 40%;
 }
 
 .hero .cta-btn {
