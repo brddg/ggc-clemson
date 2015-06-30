@@ -36,6 +36,8 @@
           </div>
         </div>
         
+        <div class="image-block" style="background-image:url('<?php the_field('home_block_2_image'); ?>')"></div>
+        
 
       </article>
       <!-- /article -->
