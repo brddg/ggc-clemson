@@ -12,54 +12,61 @@
 */
 
 h1 {
-  font-family: Roboto-Medium; 
+  font-family: Roboto; 
+  font-weight: 500;
   font-size: 47px;
   color: #303030; 
   letter-spacing: 1px; 
   line-height: 62px;
 }
 h2 {
-  font-family: Roboto-Medium; 
+  font-family: Roboto; 
+  font-weight: 500;
   font-size: 29px;
   color: #303030; 
   letter-spacing: 1px; 
   line-height: 38px;
 }
 h3 {
-  font-family: Roboto-Medium; 
+  font-family: Roboto; 
+  font-weight: 500;
   font-size: 23px;
   color: #303030; 
   letter-spacing: 1px; 
   line-height: 30px;
 }
 h4 {
-  font-family: Roboto-Regular; 
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 18px;
   color: #303030; 
   letter-spacing: 1px; 
   line-height: 24px;
 }
 h5 {
-  font-family: Roboto-Regular; 
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 14px;
   color: #303030; 
   letter-spacing: 1px; 
   line-height: 19px;
 }
-p {
-  font-family: Roboto-Regular; 
+body {
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 18px;
   color: #777877;
+}
+p {
   line-height: 29px;
 }
 p.small {
-  font-family: Roboto-Regular; 
   font-size: 14px;
-  color: #777877;
   line-height: 23px;
 }
 .btn-white {
-  font-family: Roboto-Regular; 
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 1px; 
@@ -71,7 +78,8 @@ p.small {
   background: none;
 }
 .btn-white:hover{
-  font-family: Roboto-Regular; 
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 18px;
   color: #058947/*, #EA6A20, #303030; */
   letter-spacing: 1px;
@@ -83,7 +91,8 @@ p.small {
   background: #ffffff;
 }
 .btn-blue{
-  font-family: Roboto-Regular; 
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 1px; 
@@ -94,7 +103,8 @@ p.small {
   background: #16AECA;
 }
 .btn-white:hover{
-  font-family: Roboto-Regular; 
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 1px; 
@@ -103,4 +113,34 @@ p.small {
   padding: 48px 12px;
   border-radius: 4px;
   background: #118398; 
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  background: #000;
+  background: rgba(0,0,0,.8);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 0 15px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  color: #fff;
 }
