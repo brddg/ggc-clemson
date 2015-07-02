@@ -107,7 +107,7 @@ p.small {
   background: #118398; 
 }
 
-header {
+.navbar-default {
   padding: 10px 0;
   text-align: center;
   background: #000;
@@ -115,28 +115,40 @@ header {
   position: fixed;
   z-index: 50;
   width: 100%;
+  border-radius: 0;
+  border-width: 0;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
+.navbar .navbar-nav {
   display: inline-block;
-  text-align: center;
-  list-style: none;
+  float: none;
+  vertical-align: top;
 }
 
-nav ul li a {
-  padding: 0 15px;
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  border-top: 0;
+}
+
+.navbar-collapse {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  padding: 0 10px;
   display: inline-block;
   color: #fff;
   font-size: 14px;
   letter-spacing: 1px;
 }
 
-nav ul li a:hover {
+.navbar-default .navbar-nav>li>a:hover {
   color: #fff;
 }
 
@@ -148,6 +160,7 @@ nav ul li a:hover {
 .hero {
   height: 650px;
   background-size: cover;
+  background-position: center top;
   margin-bottom: 50px;
   display: table;
   width: 100%;
@@ -162,6 +175,15 @@ nav ul li a:hover {
   margin: 0;
   color: #ffffff;
   padding-right: 40%;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    text-align: center;
+  }
+  .hero h1 {
+    padding-right: 0;
+  }
 }
 
 .hero .cta-btn {
