@@ -16,6 +16,7 @@
 		<!-- /wrapper -->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js"></script>
 
 		<?php wp_footer(); ?>
 

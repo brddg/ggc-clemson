@@ -3,6 +3,11 @@
 	$(function () {
 		
 		'use strict';
+    
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    }); 
 		
 		$('[data-show]').on('click', function(event){
       event.preventDefault();
