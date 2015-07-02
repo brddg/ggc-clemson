@@ -271,11 +271,26 @@ p.small {
   color: white;
 }
 
+.logo-block.grey {
+  background: #f2f2f2;
+  padding-top: 100px;
+}
+
 @media (max-width: 767px) {
   .logo-block img {
     margin: 50px auto;
-    
   }
+}
+
+.title-block {
+  text-align: center;
+  margin: 100px auto 50px;
+}
+
+.title-block h1 {
+  padding: 25px 0;
+  border-top: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
 }
 
 footer {
