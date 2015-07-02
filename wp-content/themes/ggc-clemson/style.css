@@ -329,7 +329,7 @@ p.small, .text-small p {
 
 @media (max-width: 767px) {
   .display-table-cell {
-    padding: 0;
+    padding: 0 -15px;
   }
 }
 
@@ -400,11 +400,12 @@ p.small, .text-small p {
 
 .sign-up-block {
   background: #f2f2f2;
+  padding: 50px 0 70px;
 }
 
 .sign-up-block h3 {
   text-align: center;
-  padding: 50px 0 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #b1b1b1;
 }
 
@@ -423,6 +424,47 @@ p.small, .text-small p {
 
 .radio-label.error {
   color: #EA6A20;
+}
+
+.green-block {
+  background: #058947;
+  padding: 50px;
+  text-align: center;
+}
+
+.green-block h3, .green-block p {
+  color: white;
+}
+
+.side-block {
+  height: 400px;
+}
+
+.side-block.red {
+  background: #EA6A20;
+}
+
+.side-block.red h3{
+  color: white;
+}
+
+.side-block.white {
+  background: #fbfcf5;
+}
+
+.bottom-block {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.bottom-block h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.bottom-block h4 {
+  padding-top: 20px;
 }
 
 footer {

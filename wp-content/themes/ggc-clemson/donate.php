@@ -50,6 +50,53 @@
             
           </div>
         </div>
+        
+        <div class="green-block">
+          <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+              <h3><?php the_field('green_block_title'); ?></h3>
+              <div><?php the_field('green_block_content'); ?></div>
+              <a href="<?php the_field('green_block_button_link'); ?>" class="btn-white green"><?php the_field('green_block_button_text'); ?></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="image-block" style="background-image:url('<?php the_field('image'); ?>')"></div>
+        
+        <div class="fluid-container">
+          <div class="row" style="margin-right:0;">
+            <div class="col-sm-6 side-block red">
+              <div class="display-table">
+                <div class="display-table-cell">
+                  <h3><?php the_field('red_block_content'); ?></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 side-block white">
+              <div class="display-table">
+                <div class="display-table-cell">
+                  <h3><?php the_field('white_block_title'); ?></h3>
+                  <?php the_field('white_block_content'); ?>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container bottom-block">
+          <div class="row">
+            <div class="col-md-5 col-centered">
+              <h3 class="text-center"><?php the_field('bottom_block_title'); ?></h3>
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+              <div class="text-left"><?php the_field('bottom_block_content'); ?></div>
+            </div>
+          </div>
+        </div>
+        
        
             
 
