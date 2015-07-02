@@ -12,14 +12,14 @@
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         
-        <div class="block-half">
+        <div class="block-half logo-block">
           <div class="container">
             <div class="row">
-              <div class="col-md-4 col-md-offset-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/clemson-logo.png" />
+              <div class="col-sm-4 col-sm-offset-2">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/clemson-logo.png" />
               </div>
-              <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/ggc-logo.png" />
+              <div class="col-sm-4">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ggc-logo.png" />
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@
 
                     <div class="row researcher">
                       <div class="col-md-4">
-                        <img src="<?php the_sub_field('image'); ?>" />
+                        <img class="img-responsive" src="<?php the_sub_field('image'); ?>" />
                       </div>
                       <div class="col-md-8">
                         <h4><?php the_sub_field('name'); ?></h4>
@@ -80,21 +80,20 @@
           </div>
         <?php endif; ?>
         
-        <div>
-          <div class="action-block-container red">
+        <div class="container-fluid real-container">
+          <div class="col-md-6 action-block-container red">
             <div class="action-block">
               <h2><?php the_field('red_block_title'); ?></h2>
               <div class="text-left"><?php the_field('red_block_description'); ?></div>
             </div>
           </div>
-          <div class="action-block-container green">
+          <div class="col-md-6 action-block-container green">
             <div class="action-block">
               <h2><?php the_field('green_block_title'); ?></h2>
               <div class="text-left"><?php the_field('green_block_description'); ?></div>
               <a class="btn-white green">Find Out How</a>
             </div>
           </div>
-          <div style="clear:both;"></div>
         </div>
         
         
