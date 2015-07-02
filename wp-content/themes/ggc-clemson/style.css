@@ -64,6 +64,9 @@ p.small {
   font-size: 14px;
   line-height: 23px;
 }
+.no-padding {
+  padding: 0;
+}
 .btn-white {
   font-family: Roboto;
   font-weight: 400;
@@ -239,10 +242,6 @@ p.small {
   }
 }
 
-.real-container {
-  padding: 0;
-}
-
 @media (min-width: 992px) {
   .real-container {
     height: 400px;
@@ -291,6 +290,45 @@ p.small {
   padding: 25px 0;
   border-top: 1px solid #b1b1b1;
   border-bottom: 1px solid #b1b1b1;
+}
+
+.quote-block {
+  background: #f2f2f2;
+}
+
+@media (max-width: 767px) {
+  .quote-block .bg-image {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote-block {
+    height: 400px;
+  }
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+.display-table {
+  display: table;
+  height: 100%;
+}
+
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 50px;
+}
+
+@media (max-width: 767px) {
+  .display-table-cell {
+    padding: 0;
+  }
 }
 
 footer {

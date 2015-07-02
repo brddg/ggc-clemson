@@ -80,7 +80,7 @@
           </div>
         <?php endif; ?>
         
-        <div class="container-fluid real-container">
+        <div class="container-fluid real-container no-padding">
           <div class="col-md-6 action-block-container red">
             <div class="action-block">
               <h2><?php the_field('red_block_title'); ?></h2>
