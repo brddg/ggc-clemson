@@ -467,6 +467,24 @@ p.small, .text-small p {
   padding-top: 20px;
 }
 
+.the-loop a {
+  color: black;
+}
+
+.text-black {
+  color: black;
+}
+
+.loop-excerpt a {
+  display: none;
+}
+
+.border-me {
+  border-top: 1px solid #b1b1b1;
+  height: 1px;
+  margin: 50px 0;
+}
+
 footer {
   padding: 70px 0 20px;
   color: white;
