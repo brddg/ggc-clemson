@@ -16,10 +16,10 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-4 col-sm-offset-2">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/clemson-logo.png" />
+                <a target="_blank" href="http://clemson.edu"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/clemson-logo.png" /></a>
               </div>
               <div class="col-sm-4">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ggc-logo.png" />
+                <a target="_blank" href="http://www.ggc.org"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ggc-logo.png" /></a>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@
             <div class="action-block">
               <h2><?php the_field('green_block_title'); ?></h2>
               <div class="text-left"><?php the_field('green_block_description'); ?></div>
-              <a class="btn-white green">Find Out How</a>
+              <a href="./donatemore-info/" class="btn-white green">Find Out How</a>
             </div>
           </div>
         </div>
