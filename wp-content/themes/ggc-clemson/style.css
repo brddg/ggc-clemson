@@ -101,9 +101,11 @@ p.small, .text-small p {
   letter-spacing: 1px; 
   line-height: 24px;
   text-align: center;
-  padding: 48px 12px; 
-  border-radius: 4px; 
+  padding: 12px 20px; 
+  border-radius: 4px;
+  border-width: 0;
   background: #16AECA;
+  margin: 10px 0;
 }
 .btn-blue:hover{
   color: #ffffff;
@@ -394,6 +396,33 @@ p.small, .text-small p {
 .show-content.green h2 {
   color: #058947;
   border-color: #058947;
+}
+
+.sign-up-block {
+  background: #f2f2f2;
+}
+
+.sign-up-block h3 {
+  text-align: center;
+  padding: 50px 0 20px;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.styled-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  outline: none;
+}
+
+.styled-input.error{
+  border-color: #EA6A20;
+}
+
+.radio-label.error {
+  color: #EA6A20;
 }
 
 footer {
