@@ -93,6 +93,22 @@ p.small, .text-small p {
 .btn-white.red:hover{
   color:#EA6A20;
 }
+.btn-white.black {
+  color: #b1b1b1;
+  border-color: #b1b1b1;
+  margin: 0 20px;
+  width: 220px;
+}
+.btn-white.black:hover {
+  color: #fff;
+  background: #b1b1b1;
+}
+@media (max-width: 767px) {
+  .btn-white.black {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
 .btn-blue{
   font-family: Roboto;
   font-weight: 400;
@@ -496,6 +512,14 @@ p.small, .text-small p {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+}
+
+.single article {
+  margin-bottom: 50px;
+}
+
+.single p {
+  padding: 10px 0;
 }
 
 
