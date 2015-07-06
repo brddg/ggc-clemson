@@ -23,7 +23,7 @@
             
             <div class="row">
               <div class="col-sm-5 col-centered">
-                <h3>Sign Up For The Latest News</h3>
+                <h3>Sign Up For the Latest News</h3>
               </div>
             </div>
             
