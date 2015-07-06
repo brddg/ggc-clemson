@@ -284,6 +284,12 @@ p.small, .text-small p {
   color: #fff;
 }
 
+@media (max-width: 767px) {
+  .action-block {
+    padding: 50px;
+  }
+}
+
 .action-block h2 {
   color: white;
 }
