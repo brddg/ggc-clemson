@@ -12,6 +12,6 @@ if (empty($hero_text)) {
 <div class="hero container" style="background-image: url('<?php echo $hero_image; ?>')">
   <div class="container">
     <h1><?php echo $hero_text; ?></h1>
-    <a href="https://www.youtube.com/watch?v=wPIk2rRbmhE" class="btn-white cta-btn" data-toggle="lightbox">Watch The Video</a>
+<!--     <a href="https://www.youtube.com/watch?v=wPIk2rRbmhE" class="btn-white cta-btn" data-toggle="lightbox">Watch The Video</a> -->
   </div>
 </div>
