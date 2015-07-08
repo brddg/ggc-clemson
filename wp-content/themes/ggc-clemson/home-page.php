@@ -57,7 +57,7 @@
                   
                   <div class="row">
                     <div class="col-md-8 col-md-offset-4">
-                      <h2>Researchers</h2>
+                      <h2>Featured Researchers</h2>
                     </div>
                   </div>
                   
