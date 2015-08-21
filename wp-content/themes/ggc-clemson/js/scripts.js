@@ -4,6 +4,18 @@
 		
 		'use strict';
     
+    function getUrlVars(thing) {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+      });
+      return vars[thing];
+    }
+
+    if(getUrlVars('thanks') == 'true') {
+      $('#thanks').show();
+    }
+
     $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
       event.preventDefault();
       $(this).ekkoLightbox();
@@ -50,15 +62,18 @@
       
       if (nameVal === "") {
         $nameInput.addClass('error').focus();
+	return false;
       }
       else if (emailVal === "") {
         $emailInput.addClass('error').focus();
+	return false;
       }
       else if (personVal === "" || personVal === undefined) {
         $('.radio-label').addClass('error');
+	return false;
       }
       
-      return false;
+      return true;
     });
     
     if($('#sign-up-form').length > 0) {
